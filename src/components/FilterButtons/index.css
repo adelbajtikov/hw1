@@ -1,0 +1,21 @@
+.filter-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-buttons button {
+  padding: 10px 15px;
+  color: royalblue ; 
+  border: royalblue solid;
+  background-color : transparent ;
+  border-radius: 16px ;
+
+  cursor: pointer;
+}
+
+.filter-buttons button.active {
+  background-color:royalblue ; 
+  color:white ;
+  transition: 0.2 zero ms ease-in-out;
+}
